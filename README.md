@@ -15,3 +15,9 @@ This is the foundational scaffold of the **ALX Listing App**, a modern Airbnb-st
 
 ## 📁 Folder Structure
 
+## 🛠️ How to Run the Project Locally
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/alx-listing-app.git
+cd alx-listing-app
