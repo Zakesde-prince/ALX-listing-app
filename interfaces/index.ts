@@ -1,7 +1,8 @@
 export interface CardProps {
-  // add card props here later
+  title: string;
 }
 
 export interface ButtonProps {
-  // add button props here later
+  label: string;
+  onClick: () => void;
 }
