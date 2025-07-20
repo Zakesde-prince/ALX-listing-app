@@ -1,29 +1,21 @@
-import React from 'react';
+import type { NextPage } from 'next';
 import Card from '../components/common/Card';
+import Button from '../components/common/Button';
 
-const properties = [
-  {
-    title: 'Cozy Apartment',
-    imageSrc: '/assets/property1.jpg',
-    price: 120,
-    location: 'New York, NY',
-  },
-  {
-    title: 'Modern House',
-    imageSrc: '/assets/property2.jpg',
-    price: 250,
-    location: 'San Francisco, CA',
-  },
-];
-
-const HomePage: React.FC = () => {
+const Home: NextPage = () => {
   return (
-    <main className="p-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-      {properties.map((property, idx) => (
-        <Card key={idx} {...property} />
-      ))}
+    <main className="p-8">
+      <h1 className="text-3xl font-bold mb-6">Welcome to ALX Listing App</h1>
+      <Card
+        title="Cozy Apartment"
+        description="A modern apartment in the heart of the city."
+        imageUrl="/assets/placeholder-house.jpg"
+      />
+      <div className="mt-4">
+        <Button onClick={() => alert('You clicked the button!')}>Book Now</Button>
+      </div>
     </main>
   );
 };
 
-export default HomePage;
+export default Home;
