@@ -1,8 +1,11 @@
 export interface CardProps {
   title: string;
+  imageSrc: string;
+  price: number;
+  location: string;
 }
 
 export interface ButtonProps {
-  label: string;
-  onClick: () => void;
+  text: string;
+  onClick?: () => void;
 }
