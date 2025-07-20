@@ -1,11 +1,11 @@
 export interface CardProps {
   title: string;
-  imageSrc: string;
-  price: number;
-  location: string;
+  description: string;
+  imageUrl: string;
 }
 
 export interface ButtonProps {
-  text: string;
   onClick?: () => void;
+  children: React.ReactNode;
+  type?: 'button' | 'submit' | 'reset';
 }
