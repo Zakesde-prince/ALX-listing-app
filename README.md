@@ -20,3 +20,16 @@ This is the foundational scaffold of the ALX Listing App, a modern Airbnb-style 
    git clone https://github.com/your-username/alx-listing-app.git
    cd alx-listing-app
 
+# ALX Listing App
+
+## Description
+An Airbnb-like property listing page built using Next.js, Tailwind CSS, and TypeScript.
+
+## Folder Structure
+- `components/` - Reusable UI components.
+- `interfaces/` - TypeScript interfaces for props and data types.
+- `constants/` - Reusable config and constants.
+- `public/assets/` - Static images and icons.
+
+## Getting Started
+1. Install dependencies:
